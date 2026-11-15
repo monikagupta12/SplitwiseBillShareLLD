@@ -12,7 +12,7 @@ public class BalanceSheet {
         this.balances =new HashMap<>();
     }
     public void showBalanceSheet(){
-        System.out.println("TotalPaid="+ totalPaid);
+        System.out.println("TotalPaid amount  ="+ totalPaid);
         System.out.println("TotalExpanse="+ totalExpanse);
         for (User user: balances.keySet()){
             double amount= balances.get(user);
